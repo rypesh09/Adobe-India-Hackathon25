@@ -6,8 +6,11 @@ This repository contains the solutions for Adobe India Hackathon 2025:
 ✅ Round 1B – Context-Aware Document Understanding using Persona
 
 📂 Folder Structure
+
 bash
+
 Copy
+
 Edit
 .
 
@@ -41,6 +44,7 @@ python classify.py  # or your main script
 
 
 🧠 Round 1B – Persona-based Document Analysis
+
 🔍 Problem Statement
 Create a system that reads multiple documents and summarizes relevant insights based on a specific user's persona.
 
@@ -57,6 +61,7 @@ graphql
 Copy
 
 Edit
+
 round1b/
 
 ├── input/            # PDF documents and persona.json
@@ -74,14 +79,23 @@ round1b/
 └── Dockerfile
 
 🚀 How to Run (with Docker)
+
 bash
+
 Copy
+
 Edit
+
 cd round1b
+
 docker build -t round1b .
+
 docker run --rm -v "%cd%\input:/app/input" -v "%cd%\output:/app/output" -p 5000:5000 round1b
+
 Then go to: http://127.0.0.1:5000/analyze
 
 🙌 Team Members
+
 Rupesh Dahale (Team Leader)
+
 Vedant Yengul
