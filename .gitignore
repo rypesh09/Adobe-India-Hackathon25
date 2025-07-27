@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+env/
+venv/
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PDF & output data
+input/
+output/
+
+# VSCode or JetBrains
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+
+# Node or JS (if present)
+node_modules/
+*.log
+
+# Ignore challenge-specific containers
+challenge1a/
+round1b/__pycache__/
+
+# Ignore secrets and keys
+*.pem
+*.key
+*.crt
+*.env.*
+
+# Ignore backup files
+*.bak
+*.swp
+*~
