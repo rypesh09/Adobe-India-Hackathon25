@@ -1,4 +1,4 @@
-##🧠 Adobe India Hackathon 2025 – Round 1A & Round 1B
+#🧠 Adobe India Hackathon 2025 – Round 1A & Round 1B
 This repository contains the solutions for Adobe India Hackathon 2025:
 
 ✅ Round 1A – Intelligent Document Classification
